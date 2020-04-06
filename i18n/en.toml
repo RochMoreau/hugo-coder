@@ -21,3 +21,6 @@ other = "You can head back to <a href=\"{{ . }}\">homepage</a>."
 
 [powered_by]
 other = "Powered by"
+
+[toc]
+other = "Table of contents"

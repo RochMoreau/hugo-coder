@@ -24,6 +24,13 @@
           {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
           {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}
         </div>
+        {{ if .Params.toc }}
+        <div>
+          <h2>{{ i18n "toc"}}</h2>
+          {{ .TableOfContents }}
+          <hr/>
+        </div>
+        {{ end }}
       </header>
 
       <div>

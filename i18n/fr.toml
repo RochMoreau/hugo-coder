@@ -23,3 +23,6 @@ other = "Vous pouvez revenir à <a href=\"{{ . }}\">l'accueil</a>."
 [powered_by]
 other = "Propulsé par"
 
+[toc]
+other = "Table des matières"
+
